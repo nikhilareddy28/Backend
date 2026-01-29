@@ -1,3 +1,4 @@
+import student from "../models/studentmodel.js";
 const getStudents = (req,res) =>{
     let stdData ={name:"aditya",roll:"12345"};
     res.status(200).json({data : stdData});
